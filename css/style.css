@@ -22,6 +22,7 @@ h1{
 }
 
 footer{
+    padding: 1rem;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1rem;
     color: #948e6f;
@@ -44,6 +45,8 @@ footer{
     border-style: double;
     border-color: #b4e0e0;
     border-width: 0.125rem;
+    max-width: 20rem;
+    margin: 0 auto;
 }
 #hobbies ul li:nth-child(2n) {
     font-family: 'Alkalami', serif;;
@@ -54,6 +57,8 @@ footer{
     border-style: double;
     border-color: #b4e0e0;
     border-width: 0.125rem;
+    max-width: 20rem;
+    margin: 0 auto;
 }
 
 /* Gallery Section*/
@@ -69,4 +74,14 @@ footer{
 #gallery img {
     max-width:100%;
     width: 30rem;
+}
+
+/* Literature */
+#lit {
+    padding: 2rem;
+    border-style: solid;
+    border-color: #689493;
+    border-width: 3rem;
+    max-width: 40rem;
+    margin: 0 auto;
 }
