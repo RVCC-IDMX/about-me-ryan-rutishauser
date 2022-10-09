@@ -8,17 +8,36 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 5rem;
-    background-color: #e0d59d;
+    font-size: 3rem;
     color: #689493;
     text-align: center;
+}
+h1{
+    font-size: 5rem;
+    background-color: #e0d59d;
     border-style: ridge;
     border-color: #e0cadb;
     border-width: 0.125rem;
+
 }
 
 footer{
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1rem;
     color: #948e6f;
+}
+
+#hobbies ul li:nth-child(2n-1) {
+    font-family: 'Alkalami', serif;;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #e0cadb;
+    text-align: center;
+}
+#hobbies ul li:nth-child(2n) {
+    font-family: 'Alkalami', serif;;
+    font-size: 1rem;
+    background-color: #dddddd;
+    color: #ffffff;
+    text-align: center;
 }
