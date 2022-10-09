@@ -27,12 +27,23 @@ footer{
     color: #948e6f;
 }
 
-#hobbies ul li:nth-child(2n-1) {
+/*Bio section*/
+
+#bio {
+    text-align: center;
+}
+
+/* Hobbies Section*/
+
+#hobbies ul li:nth-child(4n-3) {
     font-family: 'Alkalami', serif;;
     font-size: 1rem;
     background-color: #ffffff;
     color: #e0cadb;
     text-align: center;
+    border-style: double;
+    border-color: #b4e0e0;
+    border-width: 0.125rem;
 }
 #hobbies ul li:nth-child(2n) {
     font-family: 'Alkalami', serif;;
@@ -40,4 +51,22 @@ footer{
     background-color: #dddddd;
     color: #ffffff;
     text-align: center;
+    border-style: double;
+    border-color: #b4e0e0;
+    border-width: 0.125rem;
+}
+
+/* Gallery Section*/
+
+#gallery {
+    background-color: #689493;
+    color: #e0cadb;
+    border-style: double;
+    border-color: #b4e0e0;
+    border-width: 10rem;
+}
+
+#gallery img {
+    max-width:100%;
+    width: 30rem;
 }
