@@ -4,7 +4,7 @@ body{
     background-color: #b4e0e0;
     color: #689493;
     text-align: center;
-    vertical-align: middle;
+    display:inline-block;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6{
     color: #689493;
     text-align: center;
     vertical-align: middle;
+    display:inline-block;
 }
 h1{
     font-size: 5rem;
