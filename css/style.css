@@ -6,7 +6,7 @@ body{
     text-align: center;
     margin: auto;
     display: grid;
-    display: 100%;
+    display: 1fr;
 }
 
 h1, h2, h3, h4, h5, h6{
