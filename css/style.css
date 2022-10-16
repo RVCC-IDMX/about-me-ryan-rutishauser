@@ -4,7 +4,7 @@ body{
     background-color: #b4e0e0;
     color: #689493;
     text-align: center;
-    justify-content: center;
+    vertical-align: middle;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 3rem;
     color: #689493;
     text-align: center;
-    justify-content: center;
+    vertical-align: middle;
 }
 h1{
     font-size: 5rem;
@@ -20,7 +20,7 @@ h1{
     border-style: ridge;
     border-color: #e0cadb;
     border-width: 0.5rem;
-    justify-content: center;
+    vertical-align: middle;
 }
 
 footer{
