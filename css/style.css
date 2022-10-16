@@ -4,7 +4,6 @@ body{
     background-color: #b4e0e0;
     color: #689493;
     text-align: center;
-     display:inline-block;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -100,6 +99,7 @@ footer{
         margin-top: 3rem;
         margin-bottom: 3rem;
         font-size: 3rem;
+        display:inline-block;
     }
 }
 @media screen and (min-width: 100em){
@@ -109,9 +109,11 @@ footer{
         justify-content: center;
         font-size: 5rem;
         margin-bottom: auto;
+        display:inline-block;
     }
 }
 #lit div {
     max-width: 100%;
     columns: 15rem;
+    display:inline-block;
 }
