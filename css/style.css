@@ -144,4 +144,48 @@ footer{
 #formElements{
     display:grid;
     text-align: left;
+    row-gap: 0.5em;
+}
+#contact{
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+fieldset{
+    border: 4px double;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    text-align: left;
+}
+
+legend{
+    border: 4px double;
+    padding:0.5em;
+    border-radius: 3px;
+    background: linear-gradient(0deg, #689493 45%, #b4e0e0 50%, #689493 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #689493; 
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul{
+    list-style: none;
+    padding:0px;
+}
+#contact li{
+   margin:1rem; 
+}
+
+#contact button{
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
 }
