@@ -29,47 +29,63 @@ footer{
     padding: 1rem;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1rem;
-    color: #948e6f;
+    color: #2f4a1c;
     text-align: left;
 }
 
-/*Bio section*/
+footer a{
+  color: #2f4a1c;
+  background-color: #b4e0e0;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem;
+}
 
-#bio {
+footer a:hover, 
+footer a:focus{
+  filter: invert(0.3);
+}
+
+
+@media only screen and (min-width: 800px){
+    #avatar {
     text-align: center;
     justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: white;
+    border: 4px double;
+    border-radius: 3px;
+    font-size: 1.5rem;
+}
+}
+/*Bio section*/
+@media only screen and (min-width: 800px){
+    #bio {
+    text-align: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: white;
+    border: 4px double;
+    border-radius: 3px;
+}
 }
 
 /* Hobbies Section*/
-#hobbies ul li{
-    list-style: none;
-}
-
-#hobbies ul li:nth-child(4n-3) {
-    font-family: 'Alkalami', serif;;
-    font-size: 1rem;
-    background-color: #ffffff;
-    color: #e0cadb;
+@media only screen and (min-width: 800px){
+    #hobbies {
     text-align: center;
-    border-style: double;
-    border-color: #b4e0e0;
-    border-width: 0.125rem;
-    max-width: 20rem;
-    margin: 0 auto;
     justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: white;
+    border: 4px double;
+    border-radius: 3px;
 }
-#hobbies ul li:nth-child(2n) {
-    font-family: 'Alkalami', serif;;
-    font-size: 1rem;
-    background-color: #dddddd;
-    color: #ffffff;
-    text-align: center;
-    border-style: double;
-    border-color: #b4e0e0;
-    border-width: 0.125rem;
-    max-width: 20rem;
-    margin: 0 auto;
-    justify-content: center;
 }
 
 /* Gallery Section*/
@@ -82,6 +98,7 @@ footer{
     border-width: 0.5rem;
     justify-content: center;
     margin: 2rem;
+    border-radius: 10px;
 }
 
 #gallery img {
@@ -92,13 +109,20 @@ footer{
 
 /* Literature */
 #lit {
-    padding: 2rem;
-    border-style: solid;
-    border-color: #689493;
+    padding-top: 2rem;
     border-width: 3rem;
     max-width: 40rem;
     margin: 0 auto;
     justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+    border: 4px double;
+    background-image: url("../img/waves-background-image(2).jpg");
+    background-repeat: repeat-y;
+    background-position-x: center;
+    color: #689493;
+    border-color: #689493;
 }
 
 @media screen and (min-width: 60em){

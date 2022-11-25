@@ -35,6 +35,7 @@ main{
 
 .logo h1{
   width: 85%;
+  margin-left: 5rem;
 }
 
 .navbar-links li{
@@ -60,11 +61,12 @@ main{
 @media screen and (min-width: 60rem) {
   .navbar{
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: -4rem;
   }
   .navbar ul{
     display: flex;
     padding-top: 4rem;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
