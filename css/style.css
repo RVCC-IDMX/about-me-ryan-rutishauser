@@ -139,7 +139,6 @@ figure{
 #lit {
     padding-top: 2rem;
     border-width: 3rem;
-    max-width: 40rem;
     margin: 0 auto;
     justify-content: center;
     text-align: center;
@@ -147,10 +146,13 @@ figure{
     border-radius: 3px;
     border: 4px double;
     background-image: url("../img/waves-background-image(2).jpg");
-    background-repeat: repeat-y;
+    background-repeat: repeat-y repeat-x;
     background-position-x: center;
+    background-size: 100px;
     color: #689493;
     border-color: #689493;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 /*Photo Gallery section*/
 @media screen and (min-width: 60em){
@@ -190,8 +192,9 @@ figure{
 }
 #contact{
     padding: 1rem;
-    max-width: 600px;
-    margin: 2rem auto;
+    margin-right: 20%;
+    margin-left: 20%;
+    max-width: 800px;
 }
 
 fieldset{
