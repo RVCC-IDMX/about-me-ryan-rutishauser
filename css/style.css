@@ -18,7 +18,6 @@ body{
     margin: auto;
     display: grid;
     display: 1fr;
-    width: 100vw;
 }
 /*Header Styling*/
 h1, h2, h3, h4, h5, h6{
