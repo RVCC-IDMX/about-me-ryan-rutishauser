@@ -4,7 +4,8 @@
 This project was intended to be used as an introductory project to help
 me and my fellow students get acquainted with the html and css languages.
 #### Color scheme
-![alt text for screen readers](/img/color-scheme.png "Website color scheme")
+![alt text for screen readers](/img/color-scheme.png "Website color scheme")  
+
 The color scheme was very thoughtfully chosen so as to allow folks with various types of visual impairment such as color blindness to be able to use it without problems. For the most part, the design revolves around the 2 shades of blue and white, using the other colors very selectively.
 These are the resources I used to learn more about background image properties.
 #### Navbar
