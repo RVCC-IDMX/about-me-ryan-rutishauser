@@ -19,23 +19,29 @@
 <body>
 
     <header>
-      <img src="img/Final Initials.svg" alt="Name initials 
-                logo">
-        <nav class="navbar">
+        <nav class="nav">
+            <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+            <label for="nav__checkbox" class="nav__toggle">
+                <img class="menu" src="img/menu-icon96x96.png" alt="menu logo">
+                <img class="close" src="img/close-logo.png" alt="close menu logo">
+            </label>
+            <ul class="nav__menu">
+                <li><a href="#"><img id="logo" src="img/Final Initials.svg" alt="Name initials 
+                logo"></a></li>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#lit">Blog</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <!--Navbar Section-->
+        </nav>
+                    <!--Logo-->
             <div class="logo">
                 <h1>About Me</h1>
             </div>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#bio">Bio</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#lit">Blog</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
     </header>
 <main>
+    <!--Avatar Section-->
     <section id = avatar>
         <img src="img/avataaars.png" alt="Avatar picture of
         me">
@@ -44,7 +50,7 @@
             <p>Long Valley, NJ</p>
         </div>
     </section>
-
+    <!--Biography Section-->
     <section id = bio>
 
         <h2>Biography</h2>
@@ -64,7 +70,7 @@
         </div>
 
     </section>
-
+    <!--Hobbies Section-->
     <section id="hobbies">
 
     <h2>Hobbies</h2>
@@ -85,13 +91,13 @@
         </div>
 
     </section>
-
+    <!--Photo Gallery Section-->
     <section id="gallery">
 
         <h1>Photo Gallery</h1>
 
         <hr>
-
+        <!--Dog Picture-->
         <figure>
 
             <img src="img/doggy-640w.jpg"
@@ -101,7 +107,7 @@
         </figure>
 
         <hr>
-
+        <!--Cat Picture-->
         <figure>
             <img src="img\kitty-640w.jpg"
             alt="My cat Neko."> 
@@ -110,7 +116,7 @@
         </figure>
 
         <hr>
-
+        <!--Car Picture-->
         <figure>
             <img src="img/car-640w.jpg"
             alt="Porsche Taycan."> 
@@ -121,7 +127,7 @@
 
 
     </section>
-
+    <!--Video Section-->
     <section id="video">
 
         <h2>Near Car Collision</h2>
@@ -135,10 +141,10 @@
         <caption>Fellow student driving like a maniac</caption>
 
     </section>
-
+    <!--Blog article-->
     <article id="lit">
 
-        <h2>An Excerpt From Sherlock Holmes <Title></Title></h2>
+        <h2>Introduction to Background Image Properties</h2>
 
         <div>
 
@@ -186,7 +192,7 @@
         </div>
 
     </article>
-
+    <!--Contact Us section-->
     <section id="contact">
 
         <h2>Contact Us:</h2>
@@ -256,7 +262,7 @@
     </section>
 
 </main>
-
+    <!--Footer section-->
     <footer>
 
         ©2022 - Ryan Rutishauser

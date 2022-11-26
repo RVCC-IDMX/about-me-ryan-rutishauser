@@ -1,6 +1,14 @@
-header{
+/*Logo positioning*/
+#logo{
     text-align: left;
 }
+header{
+    text-align: center;
+}
+#menu-icon{
+    text-align: right;
+}
+/*Body Section*/
 body{
     font-family: 'Alkalami', serif;
     font-size: 1rem;
@@ -11,7 +19,7 @@ body{
     display: grid;
     display: 1fr;
 }
-
+/*Header Styling*/
 h1, h2, h3, h4, h5, h6{
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 3rem;
@@ -24,17 +32,17 @@ h1{
     background-color: #b4e0e0;
     vertical-align: middle;
 }
-
+/*Footer Section*/
 footer{
     padding: 1rem;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1rem;
-    color: #2f4a1c;
+    color: #948e6f;
     text-align: left;
 }
 
 footer a{
-  color: #2f4a1c;
+  color: #948e6f;
   background-color: #b4e0e0;
   text-decoration: none;
   display: inline-block;
@@ -46,8 +54,8 @@ footer a:focus{
   filter: invert(0.3);
 }
 
-
-@media only screen and (min-width: 800px){
+/*Avatar section*/
+@media only screen and (min-width: 900px){
     #avatar {
     text-align: center;
     justify-content: center;
@@ -124,7 +132,7 @@ footer a:focus{
     color: #689493;
     border-color: #689493;
 }
-
+/*Photo Gallery section*/
 @media screen and (min-width: 60em){
     figure {
         margin-top: 3rem;
@@ -145,7 +153,7 @@ footer a:focus{
     max-width: 100%;
     columns: 15rem;
 }
-
+/*Video section*/
 .videowrapper {
     position: relative;
     padding-bottom: 56.25%;
