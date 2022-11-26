@@ -18,10 +18,25 @@ body{
   border-radius: 3px;
 }
 .nav__toggle{
-  position: absolute;
   cursor: pointer;
-  margin: 2.5rem 4rem;
+  margin: 2.5rem;
+  position: absolute;
   right: 0;
+}
+@media only screen and (max-width: 600px){
+  .nav__toggle{
+  right: -2rem;
+  }
+}
+@media only screen and (max-width: 500px){
+  .nav__toggle{
+  right: -4rem;
+  }
+}
+@media only screen and (max-width: 440px){
+  .nav__toggle{
+  right: -8rem;
+  }
 }
 
 .close{
@@ -59,7 +74,6 @@ body{
 
 #nav__checkbox:checked ~ label.nav__toggle .close{
   display: block;
-  margin-right: -4rem;
 }
 
 #nav__checkbox:checked ~ label.nav__toggle .menu{
