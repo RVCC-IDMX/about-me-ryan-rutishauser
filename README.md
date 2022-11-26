@@ -35,4 +35,6 @@ In the footer section, I used a link to allow the user to access my GitHub repos
 
   [![Netlify Status](https://api.netlify.com/api/v1/badges/6a50755a-17b9-488a-be06-9d613f6c6d5f/deploy-status)](https://app.netlify.com/sites/about-me-ryan-rutishauser/deploys)  
 
-  We reserve the rights to the information on this website.
+  We reserve the rights to the information on this website.  
+    
+    Some pictures on the website came from [![pixabay.com](https://pixabay.com/)  
