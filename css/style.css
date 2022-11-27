@@ -142,7 +142,7 @@ footer a:focus{
 hr{
     display: none;
 }
-#gallery h1{
+#gallery h2{
     grid-column: 1/-1;
 }
 figure{
