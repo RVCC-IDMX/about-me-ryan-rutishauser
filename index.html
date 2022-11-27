@@ -146,46 +146,82 @@
 
         <div>
 
-            <p>"You see, Watson," he explained in the early hours 
-                of the morning as we sat over a glass of whisky and 
-                soda in Baker Street, "it was perfectly obvious from 
-                the first that the only possible object of this rather 
-                fantastic business of the advertisement of the League, 
-                and the copying of the 'Encyclopaedia,' must be to get 
-                this not over-bright pawnbroker out of the way for a number 
-                of hours every day. It was a curious way of managing 
-                it, but, really, it would be difficult to suggest a 
-                better. The method was no doubt suggested to Clay's 
-                ingenious mind by the colour of his accomplice's hair. 
-                The 4 pounds a week was a lure which must draw him, and 
-                what was it to them, who were playing for thousands? They 
-                put in the advertisement, one rogue has the temporary 
-                office, the other rogue incites the man to apply for it, 
-                and together they manage to secure his absence every morning 
-                in the week. From the time that I heard of the assistant 
-                having come for half wages, it was obvious to me that he 
-                had some strong motive for securing the situation."</p>
+            <p>As a beginner to intermediate programmer, there may 
+                still be many features to a website that you see and wonder 
+                “how do they do that?” There are few features that can enhance 
+                the appearance of a webpage quite like the background image. 
+                The background image allows you to place an image as the 
+                background to a section of your webpage. It can be used to 
+                make a picture the backdrop to text, as was done in this 
+                very blog section. You may be wondering if this is a complicated 
+                feature, but it is rather simple and can be done with only html, 
+                css, and a photo in your current working repository. 
+                To get started, as previously stated, you will need a photo 
+                in your current working repository. Once this is done, you can 
+                simply use the css tag, background-image. In order to use this 
+                tag, the syntax of the input is different from the typical input 
+                syntax. Following the usual colon, you write, url then immediately 
+                following, without even spaces, write an open parenthesis, 
+                open double quote, then the path to your image. Once you have 
+                this, you will need to put a closing quotation mark and closing 
+                parenthesis then the typical semi-colon. This is an example, the 
+                css I used to put the wave photo behind this text. </p>
 
-            <p>"But how could you guess what the motive was?"</p>
+            <p>background-image: url(“../img/waves-background-image(2).jpg”);</p>
 
-            <p>"Had there been women in the house, I should have suspected a mere vulgar intrigue. That, however, was out of the question. The man's business was a small one, and there was nothing in his house which could account for such elaborate preparations, and such an expenditure as they were at. It must, then, be something out of the house. What could it be? I thought of the assistant's fondness for photography, and his trick of vanishing into the cellar. The cellar! There was the end of this tangled clue. Then I made inquiries as to this mysterious assistant and found that I had to deal with one of the coolest and most daring criminals in London. He was doing something in the cellar--something which took many hours a day for months on end. What could it be, once more? I could think of nothing save that he was running a tunnel to some other building.</p>
+            <p>Once the background image is added, there are many effects 
+                that can be put on the image to spice it up using 
+                only css. Size is one of the common effects that is used. 
+                This can be used to shrink or expand an image as you like 
+                to make it look good within the working space. In my code, I used this 
+                to shrink the size of the wave. </p>
+            
+            <p>background-size: 100px;</p>
 
-            <p>"So far I had got when we went to visit the scene of 
-                action. I surprised you by beating upon the pavement 
-                with my stick. I was ascertaining whether the cellar 
-                stretched out in front or behind. It was not in front. 
-                Then I rang the bell, and, as I hoped, the assistant 
-                answered it. We have had some skirmishes, but we had 
-                never set eyes upon each other before. I hardly looked 
-                at his face. His knees were what I wished to see. You 
-                must yourself have remarked how worn, wrinkled, and 
-                stained they were. They spoke of those hours of burrowing. 
-                The only remaining point was what they were burrowing for. 
-                I walked round the corner, saw the City and Suburban Bank 
-                abutted on our friend's premises, and felt that I had 
-                solved my problem. When you drove home after the concert 
-                I called upon Scotland Yard and upon the chairman of the 
-                bank directors, with the result that you have seen."</p>
+            <p>Another common effect that can be used to manipulate your 
+                photo is repeat. Repeat can be used to
+                 make an image repeat horizontally, or vertically. Really, 
+                 this only comes to use if the size of the image is smaller 
+                 than the area it is covering. In my case, I made the size 
+                 of the image small because I like the subtle look it presents
+                  behind the text, and it made it more difficult to pinpoint 
+                  the exact location where the photo repeats. As you can see,
+                   the image I chose repeats both horizontally and vertically. 
+                   I did this using the following code.</p>
+            
+            <p>background-repeat: repeat-y repeat-x;</p>
+
+            <p>Another common effect that can be used is position. You can 
+                program your image to be on the left, right, center or a 
+                specified location in the unit of your choice. In my code, 
+                I simply set it to center. You can use this property 
+                on both the x and y axis.</p>
+            
+            <p>background-position-x: center;</p>
+
+            <p>Two other noteworthy properties that can be applied to background
+                 images are origin and clip. Origin is a property that 
+                 allows you to decide where the photo starts from. You can make 
+                 it start inside the border, padding or content. With the repeat 
+                 property being used on my photo, there was no distinguishable 
+                 difference when I had this property included so I left it out. 
+                 Here is an example of what the css tag looks like.</p>
+            
+            <p>background-origin: border-box;</p>
+
+            <p>The final property that will be discussed, clip is a property 
+                that restricts a photo to a certain vicinity within an element. 
+                Just like with origin, the options you can pass in are 
+                border, padding, or content. After experimenting with it on 
+                this website, I determined that I liked the look better without 
+                it, so I left it out. I will include an example to show how to 
+                write out the tag.</p>
+                
+            <p>background-clip: border-box;</p>
+
+            <p>Hopefully you found this article helpful, and you can use 
+                what you learned here to help you as you continue on the 
+                path to becoming a professional webpage developer.</p>
 
         </div>
 
