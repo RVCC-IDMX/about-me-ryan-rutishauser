@@ -152,7 +152,7 @@ figure{
 
 /* Literature */
 #lit {
-    padding-top: 2rem;
+    padding: 2rem;
     border-width: 3rem;
     margin: 0 auto;
     justify-content: center;
@@ -168,6 +168,12 @@ figure{
     border-color: #689493;
     margin-left: 20%;
     margin-right: 20%;
+
+}
+@media only screen and (max-width: 600px){
+    #lit{
+        padding: 0;
+    }
 }
 /*Photo Gallery section*/
 @media screen and (min-width: 60em){
